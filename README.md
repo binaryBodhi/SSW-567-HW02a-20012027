@@ -56,3 +56,13 @@
 |testNegativeInput|-1, 2, -9|InvalidInput|InvalidInput|Pass|
 |testForNotATriangle|12, 5, 7|NotATriangle|NotATriangle|Pass|
 
+## Final Report:
+||Test Run 1|Test Run 2|Test Run 3|Test Run 4|
+|---|---|---|---|---|
+|Tests Planned|9|9|9|9|
+|Tests Executed|9|9|9|9|
+|Tests Passed|2|6|7|9|
+|Tests Failed|7|3|2|0|
+|Defects Detected|5|1|1|0|
+|Defects Fixed|-|5|1|1|
+
