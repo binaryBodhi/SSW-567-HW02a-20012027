@@ -42,4 +42,17 @@
 |testNegativeInput|-1, 2, -9|InvalidInput|InvalidInput|Pass|
 |testForNotATriangle|12, 5, 7|NotATriangle|NotATriangle|Pass|
 
+## Test Report 4:
+
+|Test ID|Input|Expected Result|Actual Result|Pass or Fail|
+|---|---|---|---|---|
+|testRightTriangleA|3, 4, 5|Right|Right|Pass|
+|testRightTriangleB|5, 4, 3|Right|Right|Pass|
+|testEquilateralTriangles|1, 1, 1|Equilateral|Equilateral|Pass|
+|testScaleneTriangle|5, 7, 9|Scalene|Scalene|Pass|
+|testIsoscelesTriangle|2, 2, 1|Isosceles|Isosceles|Pass|
+|testInvalidInput|‘a’, 2, 1|InvalidInput|InvalidInput|Pass|
+|testLengthLimit|201, 9, 100|InvalidInput|InvalidInput|Pass|
+|testNegativeInput|-1, 2, -9|InvalidInput|InvalidInput|Pass|
+|testForNotATriangle|12, 5, 7|NotATriangle|NotATriangle|Pass|
 
