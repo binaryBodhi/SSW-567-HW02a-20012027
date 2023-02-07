@@ -14,3 +14,18 @@
 |testNegativeInput|-1, 2, -9|InvalidInput|InvalidInput|Pass|
 |testForNotATriangle|12, 5, 7|NotATriangle|InvalidInput|Fail|
 
+## Test Report 2:
+
+|Test ID|Input|Expected Result|Actual Result|Pass or Fail|
+|---|---|---|---|---|
+|testRightTriangleA|3, 4, 5|Right|Right|Pass|
+|testRightTriangleB|5, 4, 3|Right|InvalidInput|Fail|
+|testEquilateralTriangles|1, 1, 1|Equilateral|Equilateral|Pass|
+|testScaleneTriangle|9, 12, 15|Scalene|InvalidInput|Fail|
+|testIsoscelesTriangle|2, 2, 1|Isosceles|Isosceles|Pass|
+|testInvalidInput|‘a’, 2, 1|InvalidInput|TypeError: '>' not supported between instances of 'str' and 'int'|Fail|
+|testLengthLimit|201, 9, 100|InvalidInput|InvalidInput|Pass|
+|testNegativeInput|-1, 2, -9|InvalidInput|InvalidInput|Pass|
+|testForNotATriangle|12, 5, 7|NotATriangle|NotATriangle|Pass|
+
+
