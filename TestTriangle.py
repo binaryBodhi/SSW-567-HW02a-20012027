@@ -26,6 +26,24 @@ class TestTriangles(unittest.TestCase):
     def testEquilateralTriangles(self): 
         self.assertEqual(classifyTriangle(1,1,1),'Equilateral','1,1,1 should be equilateral')
 
+    def testScaleneTriangle(self):
+        self.assertEqual(classifyTriangle(9, 12, 15), 'Scalene', '9, 12, 15 is a scalene triangle')
+
+    def testIsoscelesTriangle(self):
+        self.assertEqual(classifyTriangle(2, 2, 1), 'Isoceles', '2, 2, 1 is an isosceles triangle.')
+
+    def testInvalidInput(self):
+        self.assertEqual(classifyTriangle('a', 2, 1), 'InvalidInput', 'All sides shall be an integer value.')
+
+    def testLengthLimit(self):
+        self.assertEqual(classifyTriangle(201, 9, 100), 'InvalidInput', 'All sides shall have a value less than 200')
+
+    def testNegativeInput(self):
+        self.assertEqual(classifyTriangle(-1, 2, -9), 'InvalidInput', 'All sides shall have a positive value.')
+
+    def testForNotATriangle(self):
+        self.assertEqual(classifyTriangle(12, 5, 7), 'NotATriangle', 'For a triangle, the sum of any two sides shall be strictly less than the third side.')
+
 if __name__ == '__main__':
     print('Running unit tests')
     unittest.main()
