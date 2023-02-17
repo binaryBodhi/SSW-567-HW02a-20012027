@@ -66,4 +66,4 @@
 |Defects Detected|5|1|1|0|
 |Defects Fixed|-|5|1|1|
 
-[![binaryBodhi](https://circleci.com/gh/binaryBodhi/SSW-567-HW02a-20012027.svg?style=svg)](https://app.circleci.com/pipelines/github/binaryBodhi/SSW-567-HW02a-20012027/7/workflows/8d71f385-8fc7-4a09-8cad-31ba3b7f13e5)
+[![binaryBodhi](https://circleci.com/gh/binaryBodhi/SSW-567-HW02a-20012027.svg?style=svg)](https://app.circleci.com/pipelines/github/binaryBodhi/SSW-567-HW02a-20012027?branch=main&filter=all)
