@@ -13,7 +13,7 @@ jobs:
           name: Run tests
           command: |
             pip install pytest
-            pytest --junitxml=test-results/junit.xml script(s)/TestTriangle.py
+            pytest --junitxml=test-results/junit.xml script/TestTriangle.py
       - store_test_results:
           path: test-results
 
